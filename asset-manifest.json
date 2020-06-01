@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/OPB/static/js/main.52bb7298.chunk.js",
+    "main.js.map": "/OPB/static/js/main.52bb7298.chunk.js.map",
+    "runtime-main.js": "/OPB/static/js/runtime-main.0da72032.js",
+    "runtime-main.js.map": "/OPB/static/js/runtime-main.0da72032.js.map",
+    "static/css/2.c936730f.chunk.css": "/OPB/static/css/2.c936730f.chunk.css",
+    "static/js/2.65938537.chunk.js": "/OPB/static/js/2.65938537.chunk.js",
+    "static/js/2.65938537.chunk.js.map": "/OPB/static/js/2.65938537.chunk.js.map",
+    "index.html": "/OPB/index.html",
+    "precache-manifest.d012a6af419a6024114827eaf3f08dd5.js": "/OPB/precache-manifest.d012a6af419a6024114827eaf3f08dd5.js",
+    "service-worker.js": "/OPB/service-worker.js",
+    "static/css/2.c936730f.chunk.css.map": "/OPB/static/css/2.c936730f.chunk.css.map",
+    "static/js/2.65938537.chunk.js.LICENSE.txt": "/OPB/static/js/2.65938537.chunk.js.LICENSE.txt",
+    "static/media/exel.png": "/OPB/static/media/exel.682a5c3e.png",
+    "static/media/folder.png": "/OPB/static/media/folder.fd28d30d.png",
+    "static/media/hotpng.com.png": "/OPB/static/media/hotpng.com.ac79e652.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0da72032.js",
+    "static/css/2.c936730f.chunk.css",
+    "static/js/2.65938537.chunk.js",
+    "static/js/main.52bb7298.chunk.js"
+  ]
+}
