@@ -5,6 +5,7 @@ import {
   SET_SELECTED_WORD,
   SELECT_FOLDER,
   SET_IS_CLICK,
+  SET_ALL_NODE_RULER
 } from 'modules/session/session-constants'
 import { notification } from 'antd'
 
@@ -58,3 +59,5 @@ export const selectFolder = type => {
     }
   }
 }
+
+export const setAllNodeRuler = allNodeRuler => ({type: SET_ALL_NODE_RULER, allNodeRuler})
