@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.js": "/OPB/static/js/main.351acac8.chunk.js",
-    "main.js.map": "/OPB/static/js/main.351acac8.chunk.js.map",
-    "runtime-main.js": "/OPB/static/js/runtime-main.0da72032.js",
-    "runtime-main.js.map": "/OPB/static/js/runtime-main.0da72032.js.map",
-    "static/css/2.c936730f.chunk.css": "/OPB/static/css/2.c936730f.chunk.css",
-    "static/js/2.75155384.chunk.js": "/OPB/static/js/2.75155384.chunk.js",
-    "static/js/2.75155384.chunk.js.map": "/OPB/static/js/2.75155384.chunk.js.map",
-    "index.html": "/OPB/index.html",
-    "precache-manifest.200a45c388ad4f2be99b508e02804fe9.js": "/OPB/precache-manifest.200a45c388ad4f2be99b508e02804fe9.js",
-    "service-worker.js": "/OPB/service-worker.js",
-    "static/css/2.c936730f.chunk.css.map": "/OPB/static/css/2.c936730f.chunk.css.map",
-    "static/js/2.75155384.chunk.js.LICENSE.txt": "/OPB/static/js/2.75155384.chunk.js.LICENSE.txt",
-    "static/media/exel.png": "/OPB/static/media/exel.682a5c3e.png",
-    "static/media/folder.png": "/OPB/static/media/folder.fd28d30d.png",
-    "static/media/hotpng.com.png": "/OPB/static/media/hotpng.com.ac79e652.png"
+    "main.js": "/static/js/main.5f441391.chunk.js",
+    "main.js.map": "/static/js/main.5f441391.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.76b4324f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.76b4324f.js.map",
+    "static/css/2.c936730f.chunk.css": "/static/css/2.c936730f.chunk.css",
+    "static/js/2.cfb439de.chunk.js": "/static/js/2.cfb439de.chunk.js",
+    "static/js/2.cfb439de.chunk.js.map": "/static/js/2.cfb439de.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.578ee966abf1ce33e7b4c5f93f9b4491.js": "/precache-manifest.578ee966abf1ce33e7b4c5f93f9b4491.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.c936730f.chunk.css.map": "/static/css/2.c936730f.chunk.css.map",
+    "static/js/2.cfb439de.chunk.js.LICENSE.txt": "/static/js/2.cfb439de.chunk.js.LICENSE.txt",
+    "static/media/exel.png": "/static/media/exel.682a5c3e.png",
+    "static/media/folder.png": "/static/media/folder.fd28d30d.png",
+    "static/media/hotpng.com.png": "/static/media/hotpng.com.ac79e652.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0da72032.js",
+    "static/js/runtime-main.76b4324f.js",
     "static/css/2.c936730f.chunk.css",
-    "static/js/2.75155384.chunk.js",
-    "static/js/main.351acac8.chunk.js"
+    "static/js/2.cfb439de.chunk.js",
+    "static/js/main.5f441391.chunk.js"
   ]
 }
