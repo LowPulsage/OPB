@@ -8,7 +8,7 @@ const FolderSelection = () => {
   return (
     <div className='FolderSelection-documentList'>
       <Link to='orb-others' className='folder'>
-        <Card title='ОРВ-другие'>
+        <Card title='ОРВ-Другие'>
           <img src={folder} alt='folder-orb-others' />
         </Card>
       </Link>

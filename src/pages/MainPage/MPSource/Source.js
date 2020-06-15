@@ -9,16 +9,32 @@ const Source = () => {
   const fragmentForSearching = useSelector(state => state.source.fragmentForSearching)
   const allDocsFragments = useSelector(state => state.source.allDocsFragments)
   const [arr, setArr] = useState([])
-
-  console.log(arr, 'arr')
+  const [percents, setPercents] = useState([])
 
   useEffect(() => {
     if (fragmentForSearching) {
       const tempArr = allDocsFragments[selectedWordFileName] || []
       const filterArr = tempArr.filter(i => i['Фрагмент 1'].includes(fragmentForSearching)) // исходные положения 
       setArr(filterArr)
+      setPercents(tempArr.map(p => p))
+      let jakkar = [percents[0] ? percents[0]['Жаккар'] : percents[0]]
+      let minimum = [percents[0] ? percents[0]['Минимум'] : percents[0]]
+      let cosinus = [percents[0] ? percents[0]['Косинус'] : percents[0]]
     }
   }, [fragmentForSearching])
+
+  // useEffect(() => {
+  //   const myFunction = () => {
+  //     var winScroll = document.querySelector('.Mainpage-paragraphs').scrollTop
+  //     var height = document.querySelector('.Mainpage-paragraphs').scrollHeight -  document.querySelector('.Mainpage-paragraphs').clientHeight;
+  //     var scrolled = (winScroll / height) * 100;
+  //     document.getElementById("progressBar").style.left = scrolled + "%";
+  //   }
+  //   document.querySelector('.Mainpage-paragraphs').addEventListener('scroll', myFunction);
+  //   return () => {
+  //     document.querySelector('.Mainpage-paragraphs').removeEventListener('scroll', myFunction)
+  //   }
+  // }, [])
 
 
   const nameFunc = (propValue, name) => {
